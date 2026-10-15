@@ -120,7 +120,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [79](https://teorth.github.io/optimizationproblems/constants/79a.html) | Asymptotic essential-dimension ratio of the symmetric groups | $\frac{1}{2}$ | 1 |
 | [80](https://teorth.github.io/optimizationproblems/constants/80a.html) | Ising perceptron capacity threshold | >0 (0.833*) | 0.847 (0.833*) |
 | [81](https://teorth.github.io/optimizationproblems/constants/81a.html) | Brun's constant | 1.840503 | 2.288513 |
-| [82](https://teorth.github.io/optimizationproblems/constants/82a.html) | Essential minimum of the Zhang-Zagier height | 0.24874 | 0.2536331090204145 |
+| [82](https://teorth.github.io/optimizationproblems/constants/82a.html) | Essential minimum of the Zhang-Zagier height | 0.24874 | 0.2536331090204145 (0.25360615*) |
 | [83](https://teorth.github.io/optimizationproblems/constants/83a.html) | Wirsing Constant | 0.30366300 | 0.30366300 |
 | [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) | Erdős unit distance exponent | 1.014 (1.03583*) | $\frac{4}{3}\approx 1.3333$ |
 | [84b](https://teorth.github.io/optimizationproblems/constants/84b.html) | Sum-product exponent for the reals | $\frac{4}{3}+\frac{10}{4407}\approx 1.3356$ | $<2$ (1.999281*) |
@@ -176,6 +176,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [47](https://teorth.github.io/optimizationproblems/constants/47a.html) **improved upper bound:** $C_{47} \leq 3.879$ by [Y. Lin](https://github.com/CoolRmal/centered-maximal-constant), 20 Sep 2026, formalized in Lean 4.
 - [45](https://teorth.github.io/optimizationproblems/constants/45a.html) **presentation:** the printed certificate is Griego's $0.490249407811155$, not Yoo's record $0.490180063290061$.
 - [10c](https://teorth.github.io/optimizationproblems/constants/10c.html) **upper bound correction:** $C_{10c}\le 4.1$ by [Pesenti–Vladu](https://arxiv.org/abs/2211.05509) v2 (14 Apr 2026), replacing the withdrawn $3\sqrt{3/2}$ constant in Theorem 4.5.
+- [82](https://teorth.github.io/optimizationproblems/constants/82a.html) **improved upper bound (unverified):** $C_{82} < 0.25360615*$ by [R. Pinho](https://github.com/rpinho/c82-height-certificate), 15 Oct 2026: Doche's limit-point construction with unequal multiplicities on the denominator factors of [Gri26], certified by two independently written Arb checkers.
 
 ## Maintainers
 
